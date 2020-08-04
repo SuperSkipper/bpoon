@@ -8,6 +8,7 @@ import { ProjectsComponent } from './projects/projects.component'
 import { ContactComponent } from './contact/contact.component';
 import { SelectComponent } from './projects/select/select.component';
 import { BpoonComponent } from './projects/bpoon/bpoon.component';
+import { SParkComponent } from './projects/spark/spark.component';
 
 
 const routes: Routes = [
@@ -18,8 +19,9 @@ const routes: Routes = [
   {path: 'projects', component: ProjectsComponent, data: {animation: 'projectsPage'},
     children: [
       {path: '', redirectTo: 'select', pathMatch: 'full'},
-      {path: 'select', component:SelectComponent},
-      {path: 'bpoon', component:BpoonComponent}
+      {path: 'select', component:SelectComponent, data: {animation: 'selectPage'}},
+      {path: 'bpoon', component:BpoonComponent, data: {animation: 'projectPage'}},
+      {path: 'spark', component:SParkComponent, data: {animation: 'projectPage'}}
     ]
   },
   {path: 'contact', component: ContactComponent, data: {animation: 'contactPage'}}
