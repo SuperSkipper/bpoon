@@ -53,7 +53,7 @@ h2{
 
 #back:hover img{
     transform: translateX(-5px);
- }
+}
 
 #mainBody{
     overflow-y: scroll;

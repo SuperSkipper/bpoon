@@ -42,7 +42,7 @@ export const fadeInFadeOut =
 
   export const projectSlide =
   trigger('project', [
-    transition('selectPage => *',[
+    transition('selectPage <=> projectPage',[
       style({ 
         position: 'relative',
         height: '100%',

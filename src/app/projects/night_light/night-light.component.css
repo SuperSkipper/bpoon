@@ -1,0 +1,122 @@
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white; 
+    transition: 1s;
+}
+
+button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#back{
+    margin-top: 30px;
+    margin-left: 30px;
+    background: none;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+#back p{
+    font-family: 'open sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+}
+
+#back img{
+   width: 25px;
+   height: 25px;
+   transition: .25s ease-in-out;
+}
+
+#back:hover img{
+    transform: translateX(-5px);
+}
+
+#git{
+    height: 40px;
+    float: right;
+    margin: 30px;
+    transition: .25s ease-in-out;
+}
+
+#git:hover{
+    transform: translateY(-5px);
+}
+
+#content{
+    margin-left: 75px;
+    margin-right: 75px;
+    max-height: 550px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+#content-body p{
+    text-indent: 50px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+#title-block{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-block{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-block p{
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#title-img{
+    height:150px;
+    width: 240px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+#title-character{
+    height:150px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    margin-left: -30px;
+}
+
+#ts{
+    height: 250px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+}
+
+#team-picture{
+    height: 300px;
+    box-shadow: 2px 2px 5px black;
+}

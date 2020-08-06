@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SelectComponent } from './projects/select/select.component';
 import { BpoonComponent } from './projects/bpoon/bpoon.component';
 import { SParkComponent } from './projects/spark/spark.component';
+import { NightLightComponent } from './projects/night_light/night-light.component';
 
 
 const routes: Routes = [
@@ -21,7 +22,9 @@ const routes: Routes = [
       {path: '', redirectTo: 'select', pathMatch: 'full'},
       {path: 'select', component:SelectComponent, data: {animation: 'selectPage'}},
       {path: 'bpoon', component:BpoonComponent, data: {animation: 'projectPage'}},
-      {path: 'spark', component:SParkComponent, data: {animation: 'projectPage'}}
+      {path: 'spark', component:SParkComponent, data: {animation: 'projectPage'}},
+      {path: 'night_light', component:NightLightComponent, data: {animation: 'projectPage'}}
+
     ]
   },
   {path: 'contact', component: ContactComponent, data: {animation: 'contactPage'}}
