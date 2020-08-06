@@ -2,12 +2,12 @@
     <div id = "nav-container">
         <div @fadeInFadeOut id="homeContainer" *ngIf="!checkHome()">
             <button routerLink="../home" routerLinkActive #home ="routerLinkActive">
-                <img src="../../assets/Logo.png" alt="Personal Logo">
+                <img src="./assets/Logo.png" alt="Personal Logo">
                 <p>Benjamin Poon</p>
             </button>
         </div>
         <div id="items"> 
-            <!-- TODO: clean up implementation to routerLinkActive -->
+            <!-- TODO: clean up implementation -->
             <button routerLink="../about" routerLinkActive #about ="routerLinkActive" [ngClass]="{'notSelected' :!about.isActive, 'selected' :about.isActive}">About</button>
             <button routerLink="../resume" routerLinkActive #resume ="routerLinkActive" [ngClass]="{'notSelected' :!resume.isActive, 'selected' :resume.isActive}">Resume</button>
             <button routerLink="../projects" routerLinkActive #projects ="routerLinkActive" [ngClass]="{'notSelected' : !projects.isActive, 'selected' : projects.isActive}">Projects</button>
