@@ -13,6 +13,7 @@ import { ContactComponent } from './contact/contact.component';
 import { BpoonComponent } from './projects/bpoon/bpoon.component';
 import { SelectComponent } from './projects/select/select.component';
 import { SParkComponent } from './projects/spark/spark.component';
+import { NightLightComponent } from './projects/night_light/night-light.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SParkComponent } from './projects/spark/spark.component';
     ContactComponent,
     BpoonComponent,
     SelectComponent,
-    SParkComponent
+    SParkComponent,
+    NightLightComponent
   ],
   imports: [
     BrowserModule,
