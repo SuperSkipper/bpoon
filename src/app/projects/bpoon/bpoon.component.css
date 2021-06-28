@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: white; 
+    background: white;
     transition: 1s;
 }
 
@@ -74,8 +74,8 @@ h2{
 }
 
 #git{
-    height: 40px; 
-    float: right; 
+    height: 40px;
+    float: right;
     margin: 30px;
     transition: .25s ease-in-out;
 }
