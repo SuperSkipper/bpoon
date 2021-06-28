@@ -10,7 +10,8 @@ import { SelectComponent } from './projects/select/select.component';
 import { BpoonComponent } from './projects/bpoon/bpoon.component';
 import { SParkComponent } from './projects/spark/spark.component';
 import { NightLightComponent } from './projects/night_light/night-light.component';
-
+import { MUSI2040PortfolioComponent } from './projects/musi2040-portfolio/musi2040-portfolio.component';
+import { Week2Component } from './projects/musi2040-portfolio/week2/week2.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -23,8 +24,12 @@ const routes: Routes = [
       {path: 'select', component:SelectComponent, data: {animation: 'selectPage'}},
       {path: 'bpoon', component:BpoonComponent, data: {animation: 'projectPage'}},
       {path: 'spark', component:SParkComponent, data: {animation: 'projectPage'}},
-      {path: 'night_light', component:NightLightComponent, data: {animation: 'projectPage'}}
-
+      {path: 'night_light', component:NightLightComponent, data: {animation: 'projectPage'}},
+      {path: 'musi2040_portfolio', component:MUSI2040PortfolioComponent,
+        children :[
+          {path: 'Music_in_My_Family', component:Week2Component}
+        ]
+      }
     ]
   },
   {path: 'contact', component: ContactComponent, data: {animation: 'contactPage'}}

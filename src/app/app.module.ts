@@ -14,6 +14,8 @@ import { BpoonComponent } from './projects/bpoon/bpoon.component';
 import { SelectComponent } from './projects/select/select.component';
 import { SParkComponent } from './projects/spark/spark.component';
 import { NightLightComponent } from './projects/night_light/night-light.component';
+import { MUSI2040PortfolioComponent } from './projects/musi2040-portfolio/musi2040-portfolio.component';
+import { Week2Component } from './projects/musi2040-portfolio/week2/week2.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { NightLightComponent } from './projects/night_light/night-light.componen
     BpoonComponent,
     SelectComponent,
     SParkComponent,
-    NightLightComponent
+    NightLightComponent,
+    MUSI2040PortfolioComponent,
+    Week2Component
   ],
   imports: [
     BrowserModule,
