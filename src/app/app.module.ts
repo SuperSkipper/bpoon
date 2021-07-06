@@ -16,6 +16,8 @@ import { SParkComponent } from './projects/spark/spark.component';
 import { NightLightComponent } from './projects/night_light/night-light.component';
 import { MUSI2040PortfolioComponent } from './projects/musi2040-portfolio/musi2040-portfolio.component';
 import { Week2Component } from './projects/musi2040-portfolio/week2/week2.component';
+import { P3Component } from './projects/musi2040-portfolio/p3/p3.component';
+import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { Week2Component } from './projects/musi2040-portfolio/week2/week2.compon
     SParkComponent,
     NightLightComponent,
     MUSI2040PortfolioComponent,
-    Week2Component
+    Week2Component,
+    P3Component,
+    P4Component
   ],
   imports: [
     BrowserModule,
