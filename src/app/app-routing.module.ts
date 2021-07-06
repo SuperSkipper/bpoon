@@ -12,6 +12,8 @@ import { SParkComponent } from './projects/spark/spark.component';
 import { NightLightComponent } from './projects/night_light/night-light.component';
 import { MUSI2040PortfolioComponent } from './projects/musi2040-portfolio/musi2040-portfolio.component';
 import { Week2Component } from './projects/musi2040-portfolio/week2/week2.component';
+import { P3Component } from './projects/musi2040-portfolio/p3/p3.component';
+import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -27,7 +29,9 @@ const routes: Routes = [
       {path: 'night_light', component:NightLightComponent, data: {animation: 'projectPage'}},
       {path: 'musi2040_portfolio', component:MUSI2040PortfolioComponent,
         children :[
-          {path: 'Music_in_My_Family', component:Week2Component}
+          {path: 'Music_in_My_Family', component:Week2Component},
+          {path: 'P3', component:P3Component},
+          {path: 'P4', component:P4Component}
         ]
       }
     ]

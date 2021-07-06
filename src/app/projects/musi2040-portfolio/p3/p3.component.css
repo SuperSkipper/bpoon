@@ -1,0 +1,45 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  transition: 1s;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#mainBody{
+  overflow-y: scroll;
+  display: flex;
+  padding-right: 20px;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
+  max-height: 550px;
+}
+
+#mainBody p{
+  text-indent: 50px;
+  font-family: 'open sans', sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+
