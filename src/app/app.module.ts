@@ -18,6 +18,7 @@ import { MUSI2040PortfolioComponent } from './projects/musi2040-portfolio/musi20
 import { Week2Component } from './projects/musi2040-portfolio/week2/week2.component';
 import { P3Component } from './projects/musi2040-portfolio/p3/p3.component';
 import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
+import { P5Component } from './projects/musi2040-portfolio/p5/p5.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
     MUSI2040PortfolioComponent,
     Week2Component,
     P3Component,
-    P4Component
+    P4Component,
+    P5Component
   ],
   imports: [
     BrowserModule,

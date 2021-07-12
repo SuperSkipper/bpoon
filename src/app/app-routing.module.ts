@@ -14,6 +14,7 @@ import { MUSI2040PortfolioComponent } from './projects/musi2040-portfolio/musi20
 import { Week2Component } from './projects/musi2040-portfolio/week2/week2.component';
 import { P3Component } from './projects/musi2040-portfolio/p3/p3.component';
 import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
+import { P5Component } from './projects/musi2040-portfolio/p5/p5.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -31,7 +32,8 @@ const routes: Routes = [
         children :[
           {path: 'Music_in_My_Family', component:Week2Component},
           {path: 'P3', component:P3Component},
-          {path: 'P4', component:P4Component}
+          {path: 'P4', component:P4Component},
+          {path: 'P5', component:P5Component}
         ]
       }
     ]
