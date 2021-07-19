@@ -19,6 +19,8 @@ import { Week2Component } from './projects/musi2040-portfolio/week2/week2.compon
 import { P3Component } from './projects/musi2040-portfolio/p3/p3.component';
 import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
 import { P5Component } from './projects/musi2040-portfolio/p5/p5.component';
+import { P6Component } from './projects/musi2040-portfolio/p6/p6.component';
+import { P7Component } from './projects/musi2040-portfolio/p7/p7.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { P5Component } from './projects/musi2040-portfolio/p5/p5.component';
     Week2Component,
     P3Component,
     P4Component,
-    P5Component
+    P5Component,
+    P6Component,
+    P7Component
   ],
   imports: [
     BrowserModule,

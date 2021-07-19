@@ -338,6 +338,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./projects/musi2040-portfolio/p5/p5.component */
     "./src/app/projects/musi2040-portfolio/p5/p5.component.ts");
+    /* harmony import */
+
+
+    var _projects_musi2040_portfolio_p6_p6_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! ./projects/musi2040-portfolio/p6/p6.component */
+    "./src/app/projects/musi2040-portfolio/p6/p6.component.ts");
+    /* harmony import */
+
+
+    var _projects_musi2040_portfolio_p7_p7_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./projects/musi2040-portfolio/p7/p7.component */
+    "./src/app/projects/musi2040-portfolio/p7/p7.component.ts");
 
     var routes = [{
       path: '',
@@ -410,6 +422,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }, {
           path: 'P5',
           component: _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_15__["P5Component"]
+        }, {
+          path: 'P6',
+          component: _projects_musi2040_portfolio_p6_p6_component__WEBPACK_IMPORTED_MODULE_16__["P6Component"]
+        }, {
+          path: 'P7',
+          component: _projects_musi2040_portfolio_p7_p7_component__WEBPACK_IMPORTED_MODULE_17__["P7Component"]
         }]
       }]
     }, {
@@ -681,6 +699,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./projects/musi2040-portfolio/p5/p5.component */
     "./src/app/projects/musi2040-portfolio/p5/p5.component.ts");
+    /* harmony import */
+
+
+    var _projects_musi2040_portfolio_p6_p6_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! ./projects/musi2040-portfolio/p6/p6.component */
+    "./src/app/projects/musi2040-portfolio/p6/p6.component.ts");
+    /* harmony import */
+
+
+    var _projects_musi2040_portfolio_p7_p7_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    /*! ./projects/musi2040-portfolio/p7/p7.component */
+    "./src/app/projects/musi2040-portfolio/p7/p7.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
@@ -700,7 +730,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppModule, {
-        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _resume_resume_component__WEBPACK_IMPORTED_MODULE_7__["ResumeComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_9__["ProjectsComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"], _projects_bpoon_bpoon_component__WEBPACK_IMPORTED_MODULE_11__["BpoonComponent"], _projects_select_select_component__WEBPACK_IMPORTED_MODULE_12__["SelectComponent"], _projects_spark_spark_component__WEBPACK_IMPORTED_MODULE_13__["SParkComponent"], _projects_night_light_night_light_component__WEBPACK_IMPORTED_MODULE_14__["NightLightComponent"], _projects_musi2040_portfolio_musi2040_portfolio_component__WEBPACK_IMPORTED_MODULE_15__["MUSI2040PortfolioComponent"], _projects_musi2040_portfolio_week2_week2_component__WEBPACK_IMPORTED_MODULE_16__["Week2Component"], _projects_musi2040_portfolio_p3_p3_component__WEBPACK_IMPORTED_MODULE_17__["P3Component"], _projects_musi2040_portfolio_p4_p4_component__WEBPACK_IMPORTED_MODULE_18__["P4Component"], _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_19__["P5Component"]],
+        declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _resume_resume_component__WEBPACK_IMPORTED_MODULE_7__["ResumeComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_9__["ProjectsComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"], _projects_bpoon_bpoon_component__WEBPACK_IMPORTED_MODULE_11__["BpoonComponent"], _projects_select_select_component__WEBPACK_IMPORTED_MODULE_12__["SelectComponent"], _projects_spark_spark_component__WEBPACK_IMPORTED_MODULE_13__["SParkComponent"], _projects_night_light_night_light_component__WEBPACK_IMPORTED_MODULE_14__["NightLightComponent"], _projects_musi2040_portfolio_musi2040_portfolio_component__WEBPACK_IMPORTED_MODULE_15__["MUSI2040PortfolioComponent"], _projects_musi2040_portfolio_week2_week2_component__WEBPACK_IMPORTED_MODULE_16__["Week2Component"], _projects_musi2040_portfolio_p3_p3_component__WEBPACK_IMPORTED_MODULE_17__["P3Component"], _projects_musi2040_portfolio_p4_p4_component__WEBPACK_IMPORTED_MODULE_18__["P4Component"], _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_19__["P5Component"], _projects_musi2040_portfolio_p6_p6_component__WEBPACK_IMPORTED_MODULE_20__["P6Component"], _projects_musi2040_portfolio_p7_p7_component__WEBPACK_IMPORTED_MODULE_21__["P7Component"]],
         imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]]
       });
     })();
@@ -711,7 +741,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
         args: [{
-          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _resume_resume_component__WEBPACK_IMPORTED_MODULE_7__["ResumeComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_9__["ProjectsComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"], _projects_bpoon_bpoon_component__WEBPACK_IMPORTED_MODULE_11__["BpoonComponent"], _projects_select_select_component__WEBPACK_IMPORTED_MODULE_12__["SelectComponent"], _projects_spark_spark_component__WEBPACK_IMPORTED_MODULE_13__["SParkComponent"], _projects_night_light_night_light_component__WEBPACK_IMPORTED_MODULE_14__["NightLightComponent"], _projects_musi2040_portfolio_musi2040_portfolio_component__WEBPACK_IMPORTED_MODULE_15__["MUSI2040PortfolioComponent"], _projects_musi2040_portfolio_week2_week2_component__WEBPACK_IMPORTED_MODULE_16__["Week2Component"], _projects_musi2040_portfolio_p3_p3_component__WEBPACK_IMPORTED_MODULE_17__["P3Component"], _projects_musi2040_portfolio_p4_p4_component__WEBPACK_IMPORTED_MODULE_18__["P4Component"], _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_19__["P5Component"]],
+          declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"], _resume_resume_component__WEBPACK_IMPORTED_MODULE_7__["ResumeComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_8__["AboutComponent"], _projects_projects_component__WEBPACK_IMPORTED_MODULE_9__["ProjectsComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_10__["ContactComponent"], _projects_bpoon_bpoon_component__WEBPACK_IMPORTED_MODULE_11__["BpoonComponent"], _projects_select_select_component__WEBPACK_IMPORTED_MODULE_12__["SelectComponent"], _projects_spark_spark_component__WEBPACK_IMPORTED_MODULE_13__["SParkComponent"], _projects_night_light_night_light_component__WEBPACK_IMPORTED_MODULE_14__["NightLightComponent"], _projects_musi2040_portfolio_musi2040_portfolio_component__WEBPACK_IMPORTED_MODULE_15__["MUSI2040PortfolioComponent"], _projects_musi2040_portfolio_week2_week2_component__WEBPACK_IMPORTED_MODULE_16__["Week2Component"], _projects_musi2040_portfolio_p3_p3_component__WEBPACK_IMPORTED_MODULE_17__["P3Component"], _projects_musi2040_portfolio_p4_p4_component__WEBPACK_IMPORTED_MODULE_18__["P4Component"], _projects_musi2040_portfolio_p5_p5_component__WEBPACK_IMPORTED_MODULE_19__["P5Component"], _projects_musi2040_portfolio_p6_p6_component__WEBPACK_IMPORTED_MODULE_20__["P6Component"], _projects_musi2040_portfolio_p7_p7_component__WEBPACK_IMPORTED_MODULE_21__["P7Component"]],
           imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
           providers: [],
           bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -1826,6 +1856,288 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           selector: 'app-p5',
           templateUrl: './p5.component.html',
           styleUrls: ['./p5.component.css']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/projects/musi2040-portfolio/p6/p6.component.ts":
+  /*!****************************************************************!*\
+    !*** ./src/app/projects/musi2040-portfolio/p6/p6.component.ts ***!
+    \****************************************************************/
+
+  /*! exports provided: P6Component */
+
+  /***/
+  function srcAppProjectsMusi2040PortfolioP6P6ComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "P6Component", function () {
+      return P6Component;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var P6Component = /*#__PURE__*/function () {
+      function P6Component() {
+        _classCallCheck(this, P6Component);
+      }
+
+      _createClass(P6Component, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return P6Component;
+    }();
+
+    P6Component.ɵfac = function P6Component_Factory(t) {
+      return new (t || P6Component)();
+    };
+
+    P6Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: P6Component,
+      selectors: [["app-p6"]],
+      decls: 31,
+      vars: 0,
+      consts: [["id", "mainBody"]],
+      template: function P6Component_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Portfolio 6: African American Performers in Minstrelsy");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, " During the course of module 5, one particular not-so-covered topic that stood out to me were the African American performers in minstrel shows. More specifically, I was interested in learning about their motives in performing in shows that were meant to denigrate their own race. This interest was what served as the inspiration for this portfolio post. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h2");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Pre-Civil War");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Prior to the civil war, there were only two known minstrelsy performers that were African American. These two individuals were William Henry Lane and Thomas Dilward. Overall, documentation on these individuals seemed to be somewhate sparse at best. Thomas Dilward was said to have been an excelent singer, dancer, actor, and violinist. He was also born with dwarfism, which severely hindered him from performing tasks that were typically expected of someone of his skin color back in the day. As such, he came to primarily rely on entertainment to support himself. On stage, however, Dilward's disability actually served as an advantage, getting him into minstrel troupes that ironically would otherwise never allow Black performers join. Due to both his dwarfism as well as his abilities, it was likely that the reason Dilward chose to perform in minstrels was purely for the sake of supporting himself. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " William Henry Lane, on the other hand, was even less well-documented. In fact, even his name is up for speculation, as he primarily went by the name of Master Juba. His motivations for performing in minstrels seem to have been due to his affinity for dance. In that sense, he competed and won against even the very best white minstrel dancers at the time. He would later go on to become extremely successful in the European circuit. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "h2");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Post-Civil War");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " After the Civil War, more and more exclusively black minstrel troupes began to appear. These groups of performers often touted that their performances were authentic in comparison to their white minstrel counterparts. In fact, many of the African American minstrel troupes included the word \"Georgia\" in their name in an effort to convey to their audience that their performers were genuine slaves prior to the Civil War. Meanwhile, the primary motivator for these performers seems to also have been for the purposes of self-sustinance, as black minstrels usually paid better than most other occupations that were available to them at the time. Additionally though, many African American minstrel shows also subtly subverted black sterotypes while also making fun of aspects of white culture. Though the real reason is still debated by historians, this may also have contributed to the comparatively large crowds of African American audiences that Georgia Minstrels commonly drew. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h2");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Works Cited");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Blumberg, Naomi and Yalzadeh, Ida. \"Master Juba\". Encyclopedia Britannica, 1 Jan. 2021, https://www.britannica.com/topic/Master-Juba. Accessed 19 July 2021.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Andrew Kuntz, \"Fiddle Tune History -- Minstrel Tales: Picayune Butler and Japanese Tommy 'Hunky Dory!'\", Fiddler Magazine, May 24, 2012.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Alexander,\xA0Michelle.\xA0The New Jim Crow.\xA0United States,\xA0New Press,\xA02011.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Toll, Robert C. (1974), Blacking Up: The Minstrel Show in Nineteenth-century America, New York: Oxford University Press");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      styles: ["[_ngcontent-%COMP%]::-webkit-scrollbar {\r\n  width: 3px;\r\n}\r\n\r\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\r\n  background: white;\r\n  -webkit-transition: 1s;\r\n  transition: 1s;\r\n}\r\n\r\nh1[_ngcontent-%COMP%]{\r\n  font-family: 'Raleway', sans-serif;\r\n  color: white;\r\n  font-weight: 200;\r\n  font-size: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n\r\nh2[_ngcontent-%COMP%]{\r\n  font-family: 'Raleway', sans-serif;\r\n  color: white;\r\n  font-weight: 200;\r\n  font-size: 30px;\r\n  margin-top: 30px;\r\n  margin-bottom: 30px;\r\n}\r\n\r\n#mainBody[_ngcontent-%COMP%]{\r\n  overflow-y: scroll;\r\n  display: flex;\r\n  padding-right: 20px;\r\n  flex-direction: column;\r\n  margin-top: 50px;\r\n  margin-left: 75px;\r\n  margin-right: 75px;\r\n  max-height: 550px;\r\n}\r\n\r\n#mainBody[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{\r\n  text-indent: 50px;\r\n  font-family: 'open sans', sans-serif;\r\n  font-weight: 200;\r\n  color: white;\r\n}\r\n\r\n#mainBody[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{\r\n  padding-left: 22px ;\r\n  text-indent: -22px ;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvbXVzaTIwNDAtcG9ydGZvbGlvL3A2L3A2LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsc0JBQWM7RUFBZCxjQUFjO0FBQ2hCOztBQUVBO0VBQ0Usa0NBQWtDO0VBQ2xDLFlBQVk7RUFDWixnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGtDQUFrQztFQUNsQyxZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGlCQUFpQjtFQUNqQixvQ0FBb0M7RUFDcEMsZ0JBQWdCO0VBQ2hCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLG1CQUFtQjtFQUNuQixtQkFBbUI7QUFDckIiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9tdXNpMjA0MC1wb3J0Zm9saW8vcDYvcDYuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIjo6LXdlYmtpdC1zY3JvbGxiYXIge1xyXG4gIHdpZHRoOiAzcHg7XHJcbn1cclxuXHJcbjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIge1xyXG4gIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gIHRyYW5zaXRpb246IDFzO1xyXG59XHJcblxyXG5oMXtcclxuICBmb250LWZhbWlseTogJ1JhbGV3YXknLCBzYW5zLXNlcmlmO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBmb250LXdlaWdodDogMjAwO1xyXG4gIGZvbnQtc2l6ZTogNTBweDtcclxuICBtYXJnaW4tYm90dG9tOiAzMHB4O1xyXG59XHJcblxyXG5oMntcclxuICBmb250LWZhbWlseTogJ1JhbGV3YXknLCBzYW5zLXNlcmlmO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxuICBmb250LXdlaWdodDogMjAwO1xyXG4gIGZvbnQtc2l6ZTogMzBweDtcclxuICBtYXJnaW4tdG9wOiAzMHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDMwcHg7XHJcbn1cclxuXHJcbiNtYWluQm9keXtcclxuICBvdmVyZmxvdy15OiBzY3JvbGw7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBwYWRkaW5nLXJpZ2h0OiAyMHB4O1xyXG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgbWFyZ2luLXRvcDogNTBweDtcclxuICBtYXJnaW4tbGVmdDogNzVweDtcclxuICBtYXJnaW4tcmlnaHQ6IDc1cHg7XHJcbiAgbWF4LWhlaWdodDogNTUwcHg7XHJcbn1cclxuXHJcbiNtYWluQm9keSBwe1xyXG4gIHRleHQtaW5kZW50OiA1MHB4O1xyXG4gIGZvbnQtZmFtaWx5OiAnb3BlbiBzYW5zJywgc2Fucy1zZXJpZjtcclxuICBmb250LXdlaWdodDogMjAwO1xyXG4gIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuI21haW5Cb2R5IGRpdiBwe1xyXG4gIHBhZGRpbmctbGVmdDogMjJweCA7XHJcbiAgdGV4dC1pbmRlbnQ6IC0yMnB4IDtcclxufVxyXG4iXX0= */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](P6Component, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-p6',
+          templateUrl: './p6.component.html',
+          styleUrls: ['./p6.component.css']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/projects/musi2040-portfolio/p7/p7.component.ts":
+  /*!****************************************************************!*\
+    !*** ./src/app/projects/musi2040-portfolio/p7/p7.component.ts ***!
+    \****************************************************************/
+
+  /*! exports provided: P7Component */
+
+  /***/
+  function srcAppProjectsMusi2040PortfolioP7P7ComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "P7Component", function () {
+      return P7Component;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var P7Component = /*#__PURE__*/function () {
+      function P7Component() {
+        _classCallCheck(this, P7Component);
+      }
+
+      _createClass(P7Component, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return P7Component;
+    }();
+
+    P7Component.ɵfac = function P7Component_Factory(t) {
+      return new (t || P7Component)();
+    };
+
+    P7Component.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: P7Component,
+      selectors: [["app-p7"]],
+      decls: 17,
+      vars: 0,
+      consts: [["id", "mainBody"]],
+      template: function P7Component_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h1");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Portfolio 7: Film Review (Again)");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "i");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Soundtrack for a Revolution");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " is a documentary by Bill Guttentag and Dan Sturman about the civil rights era in the United States with an emphasis on the music sung at the time. The film follows various civil rights experts and activists as they recount the history of the civil rights movement with a musical context. Additionally, the film also features artists John Legend, Wyclef Jean, The Roots, Joss Stone, Blind Boys of Alabama, Mary Mary, Richie Heavens, Anthony Hamilton, and Angie Stone. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Being a film about music during the civil rights movement, it should not be surprising that all of the featured songs are, or are derived from, protest songs. As such, much of the film's music share similar characteristics. For example, true to their name, many of the protest songs were sung during protests. More specifically, they were sung during protests as a means to help protesters stay strong in the face of adversity. Therefore, content-wise, many of the songs featured within the film revolve around the themes of hope and solidarity. Additionally, due to the circumstances under which these songs were sung (in jails and public spaces not meant for music), many of them were sung monophonically in a somewhat impromptu manner by the protesters with no accompaniment of any kind. The exception to this was when the featured artists were depicted performing within a studio setting. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " When looking at how the music featured in the film has changed over time, the foremost important aspect to recognize is its change in purpose. Like mentioned previously, during the days of the civil rights era, these pieces were performed primarily to inspire strength and perserverance within its performers. In modern times, however, these types of songs are sung in an effort to inspire rememberance of the suffering endured by those in the past. The result of this shift in purpose is that the songs have adopted a more somber tone in the recent years in comparison with the past. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " I'm not sure if this counts, but when I was watching the film, one thing that really stood out to me was the sheer number of scenes that featured the modern artists with no musical context regarding how it related to the topic being discussed. To me, this seemed a bit irrelevant, as I didn't quite understand how those tied into the story that the film was trying to convey. ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      styles: ["[_ngcontent-%COMP%]::-webkit-scrollbar {\r\n  width: 3px;\r\n}\r\n\r\n[_ngcontent-%COMP%]::-webkit-scrollbar-thumb {\r\n  background: white;\r\n  -webkit-transition: 1s;\r\n  transition: 1s;\r\n}\r\n\r\nh1[_ngcontent-%COMP%]{\r\n  font-family: 'Raleway', sans-serif;\r\n  color: white;\r\n  font-weight: 200;\r\n  font-size: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n\r\nh2[_ngcontent-%COMP%]{\r\n  font-family: 'Raleway', sans-serif;\r\n  color: white;\r\n  font-weight: 200;\r\n  font-size: 30px;\r\n  margin-top: 30px;\r\n  margin-bottom: 30px;\r\n}\r\n\r\n#mainBody[_ngcontent-%COMP%]{\r\n  overflow-y: scroll;\r\n  display: flex;\r\n  padding-right: 20px;\r\n  flex-direction: column;\r\n  margin-top: 50px;\r\n  margin-left: 75px;\r\n  margin-right: 75px;\r\n  max-height: 550px;\r\n}\r\n\r\n#mainBody[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{\r\n  text-indent: 50px;\r\n  font-family: 'open sans', sans-serif;\r\n  font-weight: 200;\r\n  color: white;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvbXVzaTIwNDAtcG9ydGZvbGlvL3A3L3A3LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1o7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsc0JBQWM7RUFBZCxjQUFjO0FBQ2hCOztBQUVBO0VBQ0Usa0NBQWtDO0VBQ2xDLFlBQVk7RUFDWixnQkFBZ0I7RUFDaEIsZUFBZTtFQUNmLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGtDQUFrQztFQUNsQyxZQUFZO0VBQ1osZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsc0JBQXNCO0VBQ3RCLGdCQUFnQjtFQUNoQixpQkFBaUI7RUFDakIsa0JBQWtCO0VBQ2xCLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGlCQUFpQjtFQUNqQixvQ0FBb0M7RUFDcEMsZ0JBQWdCO0VBQ2hCLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3RzL211c2kyMDQwLXBvcnRmb2xpby9wNy9wNy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOjotd2Via2l0LXNjcm9sbGJhciB7XHJcbiAgd2lkdGg6IDNweDtcclxufVxyXG5cclxuOjotd2Via2l0LXNjcm9sbGJhci10aHVtYiB7XHJcbiAgYmFja2dyb3VuZDogd2hpdGU7XHJcbiAgdHJhbnNpdGlvbjogMXM7XHJcbn1cclxuXHJcbmgxe1xyXG4gIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWY7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtd2VpZ2h0OiAyMDA7XHJcbiAgZm9udC1zaXplOiA1MHB4O1xyXG4gIG1hcmdpbi1ib3R0b206IDMwcHg7XHJcbn1cclxuXHJcbmgye1xyXG4gIGZvbnQtZmFtaWx5OiAnUmFsZXdheScsIHNhbnMtc2VyaWY7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG4gIGZvbnQtd2VpZ2h0OiAyMDA7XHJcbiAgZm9udC1zaXplOiAzMHB4O1xyXG4gIG1hcmdpbi10b3A6IDMwcHg7XHJcbiAgbWFyZ2luLWJvdHRvbTogMzBweDtcclxufVxyXG5cclxuI21haW5Cb2R5e1xyXG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIHBhZGRpbmctcmlnaHQ6IDIwcHg7XHJcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICBtYXJnaW4tdG9wOiA1MHB4O1xyXG4gIG1hcmdpbi1sZWZ0OiA3NXB4O1xyXG4gIG1hcmdpbi1yaWdodDogNzVweDtcclxuICBtYXgtaGVpZ2h0OiA1NTBweDtcclxufVxyXG5cclxuI21haW5Cb2R5IHB7XHJcbiAgdGV4dC1pbmRlbnQ6IDUwcHg7XHJcbiAgZm9udC1mYW1pbHk6ICdvcGVuIHNhbnMnLCBzYW5zLXNlcmlmO1xyXG4gIGZvbnQtd2VpZ2h0OiAyMDA7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG59XHJcbiJdfQ== */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](P7Component, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'app-p7',
+          templateUrl: './p7.component.html',
+          styleUrls: ['./p7.component.css']
         }]
       }], function () {
         return [];
