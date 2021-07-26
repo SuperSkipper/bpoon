@@ -21,6 +21,7 @@ import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
 import { P5Component } from './projects/musi2040-portfolio/p5/p5.component';
 import { P6Component } from './projects/musi2040-portfolio/p6/p6.component';
 import { P7Component } from './projects/musi2040-portfolio/p7/p7.component';
+import { P8Component } from './projects/musi2040-portfolio/p8/p8.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { P7Component } from './projects/musi2040-portfolio/p7/p7.component';
     P4Component,
     P5Component,
     P6Component,
-    P7Component
+    P7Component,
+    P8Component
   ],
   imports: [
     BrowserModule,

@@ -17,6 +17,7 @@ import { P4Component } from './projects/musi2040-portfolio/p4/p4.component';
 import { P5Component } from './projects/musi2040-portfolio/p5/p5.component';
 import { P6Component } from './projects/musi2040-portfolio/p6/p6.component';
 import { P7Component } from './projects/musi2040-portfolio/p7/p7.component';
+import { P8Component } from './projects/musi2040-portfolio/p8/p8.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -37,7 +38,8 @@ const routes: Routes = [
           {path: 'P4', component:P4Component},
           {path: 'P5', component:P5Component},
           {path: 'P6', component:P6Component},
-          {path: 'P7', component:P7Component}
+          {path: 'P7', component:P7Component},
+          {path: 'P8', component:P8Component}
         ]
       }
     ]
