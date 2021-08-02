@@ -1,4 +1,28 @@
-::-webkit-scrollbar {
+#back{
+  margin-top: 30px;
+  margin-left: 30px;
+  background: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+#back p{
+  font-family: 'open sans', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: white;
+}
+
+#back img{
+  width: 25px;
+  height: 25px;
+  transition: .25s ease-in-out;
+}
+
+#back:hover img{
+   transform: translateX(-5px);
+}::-webkit-scrollbar {
   width: 3px;
 }
 

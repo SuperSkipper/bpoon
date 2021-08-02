@@ -19,6 +19,9 @@ import { P6Component } from './projects/musi2040-portfolio/p6/p6.component';
 import { P7Component } from './projects/musi2040-portfolio/p7/p7.component';
 import { P8Component } from './projects/musi2040-portfolio/p8/p8.component';
 import { P9Component } from './projects/musi2040-portfolio/p9/p9.component';
+import { MusiSelectComponent } from './projects/musi2040-portfolio/musi-select/musi-select.component';
+import { MusicalWebComponent } from './projects/musi2040-portfolio/musical-web/musical-web.component';
+import { F2Component } from './projects/musi2040-portfolio/f2/f2.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -34,6 +37,7 @@ const routes: Routes = [
       {path: 'night_light', component:NightLightComponent, data: {animation: 'projectPage'}},
       {path: 'musi2040_portfolio', component:MUSI2040PortfolioComponent,
         children :[
+          {path: 'select', component:MusiSelectComponent},
           {path: 'Music_in_My_Family', component:Week2Component},
           {path: 'P3', component:P3Component},
           {path: 'P4', component:P4Component},
@@ -41,7 +45,9 @@ const routes: Routes = [
           {path: 'P6', component:P6Component},
           {path: 'P7', component:P7Component},
           {path: 'P8', component:P8Component},
-          {path: 'P9', component:P9Component}
+          {path: 'P9', component:P9Component},
+          {path: 'F1', component:MusicalWebComponent},
+          {path: 'F2', component:F2Component}
         ]
       }
     ]

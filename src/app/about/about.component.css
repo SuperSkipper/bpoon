@@ -5,8 +5,8 @@ h1{
     font-weight: 200;
     color: white;
 }
-    
-p{  
+
+p{
     text-indent: 50px;
     font-family: 'open sans', sans-serif;
     font-size: 17px;
@@ -22,7 +22,7 @@ p{
     display: inline-flex;
     background-color: rgba(0, 0, 0, 0.5);
     width: 1000px;
-    height: 475px;
+    height: 600px;
     box-shadow: 2px 2px 5px black;
 }
 

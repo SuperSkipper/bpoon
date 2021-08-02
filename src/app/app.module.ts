@@ -23,6 +23,9 @@ import { P6Component } from './projects/musi2040-portfolio/p6/p6.component';
 import { P7Component } from './projects/musi2040-portfolio/p7/p7.component';
 import { P8Component } from './projects/musi2040-portfolio/p8/p8.component';
 import { P9Component } from './projects/musi2040-portfolio/p9/p9.component';
+import { MusiSelectComponent } from './projects/musi2040-portfolio/musi-select/musi-select.component';
+import { MusicalWebComponent } from './projects/musi2040-portfolio/musical-web/musical-web.component';
+import { F2Component } from './projects/musi2040-portfolio/f2/f2.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +48,10 @@ import { P9Component } from './projects/musi2040-portfolio/p9/p9.component';
     P6Component,
     P7Component,
     P8Component,
-    P9Component
+    P9Component,
+    MusiSelectComponent,
+    MusicalWebComponent,
+    F2Component
   ],
   imports: [
     BrowserModule,
